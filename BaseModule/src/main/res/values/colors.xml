@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#D61425</color>
+    <color name="colorPrimaryDark">#D61425</color>
+    <color name="colorAccent">#D61425</color>
+
+    <!-- 通用 -->
+    <color name="common_transparent">#00000000</color>
+
+    <color name="common_text_color">#FF1B0000</color>
+    <color name="common_text_color_intaglio">#FFFFFFFF</color>
+
+    <color name="common_cutting_line">#EBEDF0</color>
+</resources>

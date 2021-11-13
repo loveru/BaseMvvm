@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/base_actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_56"
+        android:background="@color/colorAccent"
+        android:paddingLeft="@dimen/dp_16"
+>
+
+        <ImageButton
+                android:id="@+id/mIbBack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/common_ic_action_bar_back"
+                android:background="@color/common_transparent"/>
+
+        <TextView
+                android:id="@+id/mTvActionBarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/sp_18"
+                android:textColor="@color/common_text_color_intaglio"/>
+
+        <FrameLayout
+                android:id="@+id/mLayoutCustom"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="@dimen/dp_16"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        <ImageView
+                android:id="@+id/mIbAction"
+                android:layout_width="@dimen/dp_56"
+                android:layout_height="@dimen/dp_56"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerInside"
+                android:background="@color/common_transparent"/>
+</RelativeLayout>
